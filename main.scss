@@ -1,0 +1,163 @@
+body{
+    background: rgb(179, 175, 175);
+    margin: 0; 
+}
+
+.navbar{
+    background: rgb(106, 106, 250);
+    padding: 1em;
+
+    .logo{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+
+        span{
+            color: rgb(122, 39, 199);
+        }
+    }
+
+}
+
+a{
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 5em 2em;
+}
+
+.hero {
+    text-align: center;
+}
+
+.left-col {
+    .subhead {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgb(122, 39, 199);
+        letter-spacing: .3em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        line-height: 1.3em;
+        margin-top: .2em;
+    }
+
+    .primary-cta {
+        background: rgb(122, 39, 199);
+        color: white;
+        text-decoration: none;
+        padding: .6em 1.3em;
+        font-size: 1.4em;
+        border-radius: 5em;
+        font-weight: bold;
+        display: inline-block;
+    }
+}
+
+.hero-img {
+    margin-top: 3em;
+}
+
+section.features-section {
+    background: rgb(122, 39, 199);
+    color: white;
+}
+
+ul.features-list {
+    margin: 0;
+    padding-left: .1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
+    li{
+        font-size: 1.1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        position: relative;
+
+        &:before {
+            content: '';
+            left: -2em;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-image: url('../images/checkmark.svg');
+            background-size: contain;
+            margin-right: .5em;
+        }
+    }
+}
+
+h2 {
+    font-size: 2em;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+    ul {
+        display: flex;
+    }
+
+    a{
+        color: white;
+        font-size: 1em;
+        padding: .1em 1em;
+    }
+
+    ul.primary-nav {
+        margin: 0;
+    }
+
+    li.current a {
+        font-weight: bold;
+    }
+
+    li.premium-cta {
+        color: rgb(122, 39, 199);
+        border: 3px solid rgb(122, 39, 199);
+        font-weight: bold;
+        border-radius: 5em;
+        margin-top: -.2em;
+
+        &:hover {
+            background: rgb(122, 39, 199);
+        }
+    }
+}

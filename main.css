@@ -1,0 +1,182 @@
+body {
+  background: #d6cece;
+  margin: 0;
+}
+
+.navbar {
+  background: rgb(163, 120, 204);
+  padding: 1em;
+}
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+.navbar .logo span {
+  color: rgb(47, 6, 114);
+}
+
+a {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(122, 39, 199);
+  letter-spacing: 0.3em;
+}
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: 0.2em;
+}
+.left-col .primary-cta {
+  background: rgb(122, 39, 199);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.left-col .primary-cta:hover {
+  background: rgb(137, 100, 172);
+}
+
+.left-col .primary-cta:active {
+  transform: scale(0.98);
+}
+
+.hero-img {
+  margin-top: 3em;
+}
+
+.reading-img {
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+section.features-section {
+  background: rgb(122, 39, 199);
+  color: white;
+}
+
+ul.features-list {
+  margin: 0;
+  padding-left: 0.1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+}
+ul.features-list li {
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  position: relative;
+}
+ul.features-list li:before {
+  content: "";
+  left: -2em;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/checkmark.svg");
+  background-size: contain;
+  margin-right: 0.5em;
+}
+
+.feature-cta .acess-cta {
+  background: rgb(47, 6, 114);
+  color: white;
+  text-decoration: none;
+  padding: 0.6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.feature-cta .acess-cta:hover {
+  background: rgb(87, 36, 168);
+}
+
+h2 {
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+.navbar .container {
+  display: grid;
+  grid-template-columns: 180px auto;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+.navbar nav ul {
+  display: flex;
+}
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: 0.1em 1em;
+}
+.navbar nav ul.primary-nav {
+  margin: 0;
+}
+.navbar nav li.current a {
+  font-weight: bold;
+}
+.navbar nav li.premium-cta {
+  color: rgb(122, 39, 199);
+  border: 3px solid rgb(122, 39, 199);
+  font-weight: bold;
+  border-radius: 5em;
+  margin-top: -0.2em;
+}
+.navbar nav li.premium-cta a:hover {
+  color: white;
+}
+.navbar nav li.premium-cta:hover {
+  background: rgb(122, 39, 199);
+}/*# sourceMappingURL=main.css.map */

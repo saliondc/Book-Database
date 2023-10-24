@@ -1,0 +1,152 @@
+body {
+    background: #d6cece;
+    margin: 0;
+    
+}
+
+.hero{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+
+}
+
+.hero .container {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgb(0, 0, 0.2);
+    background: white;
+}
+
+.form__title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form__message--error {
+    color: red;
+    text-align: center;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+}
+
+.form__input-error-message {
+
+    color: red;
+}
+
+.form__input-group {
+    margin-bottom: 1rem;
+}
+
+.form__button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    border-radius: 5em;
+    outline: none;
+    cursor: pointer;
+    background: rgb(122, 39, 199);
+}
+
+.form__button:hover {
+    background: rgb(137, 100, 172);
+}
+
+.form__button:active {
+    transform: scale(0.98);
+}
+
+.form__text {
+    text-align: center;
+}
+
+.form__link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+  
+.navbar {
+    background: rgb(163, 120, 204);
+    padding: 1em;
+}
+.navbar .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+.navbar .logo span {
+    color: rgb(47, 6, 114);
+}
+  
+a {
+    color: black;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+section {
+    padding: 5em 2em;
+}
+  
+.navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+}
+  
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+.navbar nav ul {
+    display: flex;
+}
+.navbar nav a {
+    color: black;
+    font-size: 1em;
+    padding: 0.1em 1em;
+}
+.navbar nav ul.primary-nav {
+    margin: 0;
+}
+.navbar nav li.current a {
+    font-weight: bold;
+}
+.navbar nav li.premium-cta {
+    color: rgb(122, 39, 199);
+    border: 3px solid rgb(122, 39, 199);
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -0.2em;
+}
+.navbar nav li.premium-cta a:hover {
+    color: white;
+}
+  .navbar nav li.premium-cta:hover {
+    background: rgb(122, 39, 199);
+}/*# sourceMappingURL=main.css.map */
